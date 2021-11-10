@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #FFF;
-    font-family: 'Karla', sans-serif;
-} */
-
 :root {
     --bgcolor : #ffffff;
     --accentcolor: #000000;
@@ -53,14 +45,21 @@ body {
     transition: all 0.5s linear;
 }
 
-.link-tree a:hover {
+.link-tree a:hover, button:hover {
     background-color: var(--bgcolor);
     color: var(--accentcolor);
 }
 
-.social-icons {
+.social-icons{
     text-align: center;
     align-items: center;
+    color: var(--accentcolor);
+}
+
+.social-icons a:visited, a:hover, a:focus{
+    text-align: center;
+    align-items: center;
+    color: var(--accentcolor);
 }
 
 .normal-icons-size {
